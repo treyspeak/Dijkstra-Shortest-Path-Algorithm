@@ -1,1 +1,2 @@
 # Dijkstra-Shortest-Path-Algorithm
+This program runs dijkstras algorithm to find the shortest path between two vertices of a weighted graph. All the user must do is run the program (from terminal "python3 lab13.py") and the program uses the files in the directory that provides the graph. You can change the start and ending nodes within the source code at the very bottom of the file. The program outputs the path that was taken and the total cost.
