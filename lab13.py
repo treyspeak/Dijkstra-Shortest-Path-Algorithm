@@ -125,7 +125,7 @@ def driver():
 driver()
 
 # Change these for specific cases (change file, starting node, ending node)
-print("\t\tExample path using medium graph. From node 0 to 249")
+print("\t\tExample path using medium graph.")
 graph = Graph("mediumDG.txt")
 graph.dijkstra(0)  # starting node 0
 # graph.print_adjacency_list()
