@@ -113,6 +113,8 @@ def driver():
     graphs.append(large_graph)
     xlarge_graph = Graph("XtraLargeDG.txt")
     graphs.append(xlarge_graph)
+    #this establishes the shortest path from 0 to all other nodes in the graph
+    #this is seperate from the example below where we print a specific shortest path between two nodes
     for graph in graphs:
         start = time.perf_counter_ns()
         graph.dijkstra(0)
