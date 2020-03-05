@@ -130,6 +130,7 @@ graph = Graph("mediumDG.txt")
 graph.dijkstra(0)  # starting node 0
 # graph.print_adjacency_list()
 # graph.all_short_paths(0)  # cost from 0 to all other nodes
-graph.print_path(100)  # ending node 200
+#change these two for the ending node (currently 100)
+graph.print_path(100)  
 graph.print_cost(100)
 
